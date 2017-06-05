@@ -1,2 +1,0 @@
-# Liron
-Blog
