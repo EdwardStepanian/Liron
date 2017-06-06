@@ -9,16 +9,18 @@
 
 
 import React from 'react';
-import {Router, Route} from 'react-router';
-import  App from 'App';
-import login from 'components/login/login';
-import registration from 'components/registration/registration';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import App from './App';
+import login from './components/login/login';
+import Registration from './components/registration/registration';
 
 let Routes = (props) => (
     <Router {...props}>
-        <Route path = '/' component = {App} />
-        <Route path = '/login' component = {login}/>
-        <Route path = '/registration' component = {registration} />
+        <div>
+            <Route path='/' component={App} />
+            <Route path='/login' component={login}/>
+            <Route path='/registration' component={Registration} />
+        </div>
     </Router>
 );
 

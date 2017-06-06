@@ -44,8 +44,9 @@ if (isDeveloping) {
 } else {
     app.use(express.static(__dirname + '/app'));
     app.get('*', function response(req, res) {
-        res.sendFile(path.join(__dirname, 'app/index.html'));
+        res.sendFile(path.join(__dirname, 'public/index.html'));
     });
+
     app.use(cookieParser); // Read Cookies, for  authentication
     app.use(bodyParser); // Get data form html forms
 
