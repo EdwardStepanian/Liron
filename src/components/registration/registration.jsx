@@ -8,7 +8,7 @@ class Registration extends React.Component{
         }
     }
 
-    remder(){
+    render(){
         return(
             <div className="registrationForm">
 
