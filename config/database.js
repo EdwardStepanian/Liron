@@ -1,3 +1,3 @@
 module.exports = {
-    'url' : 'mongodb://username:pass'
+    'url' : 'mongodb://localhost/liron'
 };

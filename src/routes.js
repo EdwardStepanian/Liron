@@ -1,13 +1,3 @@
-// module.exports = function (app, passport) {
-//     app.get('/', function (req, res) {
-//         res.
-//     })
-//
-//
-//
-// }
-
-
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import App from './App';
